@@ -12,3 +12,9 @@ run:
 	: php show-ignored.php > result.txt
 	: grep "local ignored" result.txt    # find local ignored files/directories
 	: grep "path excep" result.txt
+
+debug:
+
+: ; php.ini
+: memory_limit = 2048M
+
